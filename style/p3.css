@@ -1,0 +1,26 @@
+body{
+    font-size: medium;
+}
+p{
+    color: blueviolet;
+}
+img{        /*이미지 크기 변경*/
+    height: 200px;
+    width: 30%;
+    border: 20px solid;
+    padding: 10%;
+    border-bottom-style: dotted;
+    border-bottom-color: blueviolet;
+}
+table, tr, td{
+    
+    border: 10px solid;
+}
+.container{
+    background-color: brown;
+}
+.container-item{
+    display: inline-block;
+    
+}
+

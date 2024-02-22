@@ -1,0 +1,42 @@
+*{
+    border:1px solid black;
+    text-align: center;
+}
+.box{
+    background-color: aquamarine;
+    display: flex;
+    height: 60px;
+    align-items: center;/*높이 정렬*/
+    justify-content: center;/*좌우 정렬*/
+    
+}
+.box:nth-child(1){
+    background-color: gold;
+}
+.box:nth-child(2){
+    background-color: rgb(0, 30, 255);
+    
+}
+.box:nth-child(3){
+    background-color: rgb(255, 0, 221);
+    
+}
+.box-item-first{
+    background-color: blanchedalmond;
+    height: 50px;
+    width: 50px;
+    flex-grow: 2;
+}
+.box-item-second{
+    background-color: chartreuse;
+    height: 40px;
+    flex-grow: 2;
+}
+.box-item-third{
+    background-color: chocolate;
+    flex-grow: 3;
+}
+img{
+    height: 39px;
+    width: 200px;
+}

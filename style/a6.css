@@ -1,0 +1,54 @@
+p{
+    font-size: 1em;
+    font-family: fantasy;
+    color: rgb(31, 35, 39);
+    background-color: rgb(233, 140, 140);
+    transition: background-color 0.5s;
+}
+p:hover{
+    background-color: rgb(214, 236, 227);
+}
+.first p{
+    color: blue;
+}
+h1{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 4px 4px 4px rgb(76, 16, 173);
+}
+h5{
+    text-align: left;
+
+}
+h6{
+    background-color: rgb(243, 202, 127);
+    text-align: right;
+}
+*{
+    background-color: rgba(255, 228, 192, 0.486);
+    text-align: center;
+    
+}
+fieldset{
+    background-color: rgb(211, 245, 18);
+}
+.dif{
+    font-weight: 20px;
+    text-align: left;
+}
+button{
+    font-size: 24px;
+    height: 40px;
+    width: 120px;
+    background-color: blue;
+    border: none;
+    color: aliceblue;
+    border-radius: 5px;/*모서리를 둥글게*/
+    transition: background-color 0.5s;/*천천히 호버 됨*/
+}
+button:hover{
+    opacity: 1;
+    cursor: pointer;/*버튼에 다가가면 포인터가 손가락 모양으로 바뀐다*/
+    color: blueviolet;
+    background-color: rgb(42, 165, 114);
+}

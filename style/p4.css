@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#stickynote{
+    font-family: "Nanum Pen Script",cursive;
+    font-size: 25px;
+    height: 350px;
+    width: 350px;
+    background-color: #ff9;
+    padding: 18px;
+    text-align: center;
+    margin: 100px;
+    position: relative;
+    transform: rotate(10deg);
+}
+h1{
+    font-size: 44px;
+    margin-bottom: 20px;
+
+}
+p{
+    font-size: 25px;
+    margin-bottom: 20px;
+}

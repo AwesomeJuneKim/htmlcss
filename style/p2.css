@@ -1,0 +1,52 @@
+*{
+    padding: 20px;
+    border: 1px solid;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #B3B3B3;
+    background-color: rgb(53, 27, 27);
+}
+p{              /*셀렉터-특정 부분을 바꾸고 싶을때*/
+    font-size: 50px; /*p로 지정된 부분을 해당 옵션으로 바꾼다.*/
+    color:#c8dd07;
+   
+}
+
+.my_p{
+    font-size: 32px;
+    color: #B9B68D;
+    font-weight: bold;
+}
+#my_id{
+    font-size: 20px;
+    color: rgb(228, 145, 36);
+    font-weight: lighter;
+}
+.highlight{
+    text-decoration: underline;
+    background-color: rgb(253, 194, 172);
+}
+#main{
+    background-color: rgb(210, 252, 252);
+}
+.my_div{
+    font-size: 32px;
+}
+th, sup{
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #3a370b;
+    font-variant-position: normal;
+    font-variant-position: sub;
+    font-variant-position: super;
+}
+td{
+    font-size: 15px;
+    font-family: monospace;
+}
+.dif{
+    background-color: bisque;
+}
+.cap{
+    text-transform: capitalize;
+}
